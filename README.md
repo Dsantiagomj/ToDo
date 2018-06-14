@@ -1,11 +1,13 @@
 # Todo app
 
-##Installation
+## Installation
+
 ```bundle install```
 
-##Development 
+## Development 
 
 ```rerun main.rb```
 
-##Production
+## Production
+
 ```ruby main.rb```
