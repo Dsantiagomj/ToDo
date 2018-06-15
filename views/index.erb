@@ -1,3 +1,11 @@
+<h1>To Do app</h1>
 
-     <p>To Do app</p>
-   
+<% if @todos.size > 0  %>
+<ul class="list-group">
+<% @todos.each do |todo| %>
+  <li class="list-group-item">
+    <%= todo[:title] %> - <em><%= todo[:description] %></em>
+  </li>
+<% end %>
+</ul>
+<% end %>
